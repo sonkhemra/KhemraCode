@@ -1,0 +1,189 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: lightgray;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* left-project */
+.navigation{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    border-radius: 15px;
+    border: 1px solid rgb(72, 9, 9);overflow: hidden;
+    width: 768px;
+    background-color: white;
+}
+.left-nav{
+    padding:2rem;
+    width: 100%;
+    
+}
+.left-link{
+    border-radius: 15px;
+    display: flex;
+    padding: 1.5rem 2rem;
+    align-items: center;
+    gap: 1rem;
+}
+.link-title > h3{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+.link-title >p{
+font-size: 1.7rem;
+}
+.ll-one:hover{
+background-color: rgb(199, 252, 234)
+}
+.ll-one:hover h3{
+    color: rgb(10, 129, 87);
+}
+.img{
+    width: 60px;
+}
+.img>img{
+    width: 100%;
+    border-radius: 25px;
+}
+.right-nav{
+    width: 100%;
+    background-color:rgb(209, 204, 204);
+}
+.ll-tow:hover{
+    background-color: rgb(242, 190, 228);
+}
+.ll-tow:hover h3{
+    color: rgb(160, 6, 117);
+}
+.ll-three:hover{
+    background-color: rgb(175, 237, 248);
+}
+.ll-three:hover h3{
+    color: rgb(4, 91, 131);
+}
+.ll-fore:hover{
+    background-color: rgb(241, 246, 185);
+}
+.ll-fore:hover h3{
+    color: rgba(176, 176, 5, 0.848);
+}
+.ll-five:hover{
+    background-color: rgb(244, 188, 216);
+}
+.ll-five:hover h3{
+    color: rgb(149, 19, 90);
+}
+.ll-five .link-title >h3::after{
+    content:"New";
+    text-transform: uppercase;
+    background-color: rgb(239, 198, 220);
+    border-radius: 10px;
+    font-size: 0.8rem;
+    padding: 0.2rem 0.7rem;
+    color: rgb(188, 8, 170);
+}
+.link-new{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+/* Enf of left project */
+/* right-nav */
+.right-nav{
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+} 
+
+.nav-top,
+.nav-botton{
+display: flex;
+flex-direction: column;
+} 
+.nav-top p,
+.nav-top a,
+.nav-botton p,
+.nav-botton a{
+font-size: 1.7rem;
+margin: 0.8rem 0;
+}
+.nav-top p,
+.nav-botton p{
+    font-weight: bold;
+}
+.nav-top{
+    margin-bottom: 2rem;
+}
+.nav-top a:hover,
+.nav-botton a:hover{
+    color: rgb(9, 9, 222);
+}
+.nav-top>.p::after{
+    content: "new";
+    text-transform:uppercase;
+    border-radius: 10px;
+    color: rgb(8, 8, 130);
+    background-color: rgb(149, 149, 230);
+    padding: 0.3rem 0.8rem;
+    font-size: 1rem;
+    gap:1rem;
+}
+.p{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.nav-botton>.p-one::after{
+    content: "New";
+    text-transform: uppercase;
+    color: blueviolet;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 0.3rem 0.9rem;
+    font-size: 1rem;
+}
+.p-one{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.nav-botton>.p-two::after{
+    content: "New";
+    text-transform: uppercase;
+    color: rgb(78, 6, 51);
+    background-color: aquamarine;
+    border-radius: 10px;
+    padding: 0.3rem 0.9rem;
+    font-size: 1rem;
+}
+.p-two{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.nav-top>a:hover{
+    background-color: rgb(106, 218, 240);
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+.nav-botton>a:hover{
+    background-color:  rgb(106, 218, 240);
+    border-radius: 10px;
+    font-weight: bold;
+}
+/* End of Right-nav */
